@@ -1,0 +1,15 @@
+package com.org.Blog.payloads;
+
+import java.util.Set;
+
+import lombok.Data;
+
+@Data
+
+public class JwtAuthRequest {
+
+	private String username;
+	private String password;
+	private Set<Role> roles;
+	
+}
